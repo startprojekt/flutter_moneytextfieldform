@@ -10,7 +10,10 @@ environment:
 dependencies:
   flutter:
     sdk: flutter
-  flutter_money_formatter: ^0.8.0
+  flutter_money_formatter:
+    git:
+      url: https://github.com/startprojekt/flutter_moneytextfieldform
+      ref: dev
 
 # For information on the generic Dart part of this file, see the
 # following page: https://www.dartlang.org/tools/pub/pubspec
